@@ -1,0 +1,27 @@
+{
+  "name": "limetorrents",
+  "version": "0.0.1",
+  "description": "Search torrents at limetorrents.cc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikekok/limetorrents.git"
+  },
+  "keywords": [
+    "limetorrents",
+    "limetorrents.cc",
+    "torrents",
+    "tracker",
+    "search"
+  ],
+  "author": "Mike Kokkolios <mikekokkolios@gmail.com> (https://xweb.gr)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "request": "^2.81.0"
+  }
+}
